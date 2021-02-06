@@ -22,8 +22,8 @@ public class LearnJava_2 {
         learnJava.setX("Framework");
         System.out.println(learnJava.getX());
 
-        System.out.println(learnJava.x+learnJava.y);
-        System.out.println(learnJava.z+Integer.parseInt(learnJava.y));
+        System.out.println(learnJava.x+learnJava.y);  //revised value
+        System.out.println(learnJava.z+Integer.parseInt(learnJava.y)); // understand conversion. boxing
     }
 
 }

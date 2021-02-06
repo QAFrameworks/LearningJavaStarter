@@ -19,8 +19,8 @@ public class LearnJava_4 {
 
         int newSize = list.size();
         System.out.println(newSize);
-        for (String x: list) {
-            if(!x.startsWith("T"))  //Conditions try while do while.  not operator
+        for (String x: list) { // Advanced looping
+            if(!x.startsWith("T"))  //Conditions try while, do while.  not operator
             System.out.println(x);
         }
 

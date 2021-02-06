@@ -14,6 +14,9 @@ public class LearnJava_9_Assert {
 
     public static void main( String args[]) {
 
+
+        Assert.assertTrue(1==1);   //try assertFalse
+
         LearnJava_9_Assert learnJava_9_assert = new LearnJava_9_Assert();
         String stringX= "It is Automation Framework Learning";
         String stringY= "Automation";

@@ -7,7 +7,7 @@ public class LearnJava_6_Constructor {
     String b;
 
     public LearnJava_6_Constructor() {
-        x=4;
+        this.x=4;
         b="Automation";
     }
     public LearnJava_6_Constructor(int param1, String param2) {   //Constructor OverLoading

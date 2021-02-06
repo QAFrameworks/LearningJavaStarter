@@ -19,6 +19,7 @@ public class LearnJava_5 {
         map.put(3,"Three");
         map.put(4,"Four");
         map.put(1,"Ten");
+        map.put(null,"NUll"); // null possible but not Duplicate
 
         int newSize = map.size();
         System.out.println(newSize);
